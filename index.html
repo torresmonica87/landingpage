@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./estilos.css" />
+    <link rel="stylesheet" href="./media.css" />
+  </head>
+  <body>
+    <header>
+      <!--MENU SUPERIOR-->
+      <nav>
+        <div class="logo">
+          <img src="./IMAGENES/Logo.png" alt="Logo de la empresa" />
+        </div>
+        <div class="lupamovil">
+          <a href="">
+            <img src="./IMAGENES/lupa.png" alt="Buscar" />
+          </a>
+        </div>
+        <div class="texto">
+          <a class="grisclaro">LOG IN</a>
+          <p>|</p>
+          <a class="singup" href="">SIGN UP</a>
+          <a class="grisclaro" href="">ESP</a>
+          <p>/</p>
+          <a href="">ENG</a>
+        </div>
+
+        <div class="menu">
+          <a href="">
+            <img src="./IMAGENES/menu.png" alt="Menu" class="Menú" />
+          </a>
+        </div>
+      </nav>
+
+      <!--................................................-->
+      <!--PORTADA-->
+      <section id="redes">
+        <p id="follow">FOLLOW</p>
+        <div id="rayita"></div>
+        <a href="">
+          <img src="./IMAGENES/uno.png" alt="LinkedIn" />
+        </a>
+        <a href="">
+          <img src="./IMAGENES/dos.png" alt="X" />
+        </a>
+        <a href="">
+          <img src="./IMAGENES/tres.png" alt="Facebook" />
+        </a>
+        <a href="">
+          <img src="./IMAGENES/cuatro.png" alt="Instagram" />
+        </a>
+        <a href="">
+          <img src="./IMAGENES/cinco.png" alt="YouTube" />
+        </a>
+      </section>
+
+      <div class="textoportada">
+        <div class="izquierdainferior">
+          <p id="fuentep1">Luxury</p>
+          <h1 id="fuentep2">Real Estate</h1>
+          <button class="fuente">→ View all properties</button>
+        </div>
+
+        <div class="derechasuperior">
+          <input id="fuentep4" type="text" placeholder="Ex. Villa Budapest" />
+
+          <div class="lupaderechasuperior">
+            <a href="">
+              <img src="./IMAGENES/lupa.png" alt="Buscar" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="guiones">
+        <!--a estos span luego con js para dar dinámica a las img, no es recomendable envolverlos en etiquetas a-->
+        <span class="guion"></span>
+        <span class="guion"></span>
+        <span class="guion"></span>
+      </div>
+    </header>
+    <!--....................................................-->
+    <!--CARRUSEL-->
+    <div class="textomovil">
+      <a href=""><span class="fuentetxtmovil">→ View all properties</span></a>
+    </div>
+    <section id="galeriacarrusel">
+      <div id="contenedorcarrusel">
+        <a href="">
+          <div class="estilocarrusel">
+            <img
+              class="imgcarrusel"
+              src="./IMAGENES/1carrusel.jpg"
+              alt="Imagen de una propiedad"
+            />
+            <div class="textocaja">
+              <p class="texto1">France</p>
+              <p class="texto2">Marseilles</p>
+            </div>
+          </div>
+        </a>
+
+        <a href="">
+          <div class="estilocarrusel">
+            <img
+              class="imgcarrusel"
+              src="./IMAGENES/2carrusel.jpg"
+              alt="Propiedad en Glasgow Inglaterra"
+            />
+            <div class="textocaja">
+              <p class="texto1">England</p>
+              <p class="texto2">Glasgow</p>
+            </div>
+          </div>
+        </a>
+
+        <a href="">
+          <div class="estilocarrusel">
+            <img
+              class="imgcarrusel"
+              src="./IMAGENES/3carrusel.jpg"
+              alt="Propiedad en Marseilles Francia"
+            />
+            <div class="textocaja">
+              <p class="texto1">France</p>
+              <p class="texto2">Marseilles</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!--.........................................................-->
+      <!--TITULOS AL LADO DE CARRUSEL-->
+      <div class="titulos">
+        <div>
+          <h2 class="fuentep5">Worldwide gallery</h2>
+          <h2 class="fuentep6">Properties for sale</h2>
+        </div>
+        <div class="botones">
+          <a href="">
+            <div class="prev">PREV</div>
+          </a>
+          <button class="fuentep7">View all properties</button>
+          <a href="">
+            <div class="next">NEXT</div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!--......................................-->
+    <!--TITULO GALERIA-->
+    <section id="titulogaleria">
+      <h2 class="fuentep8">Luxury properties</h2>
+      <h2 class="fuentep9">Developments</h2>
+    </section>
+    <!--.................................................-->
+    <!--GALERIA-->
+    <section id="grupos">
+      <a href="">
+        <div class="imagen-con-texto">
+          <div class="logogrupos">
+            <img src="./IMAGENES/Logo.png" alt="Logo de la empresa" />
+          </div>
+          <img
+            class="grupoimg"
+            src="./IMAGENES/1grupo.jpg"
+            alt="Galería de la propiedad The Surf Row, Surfside"
+          />
+          <div class="texto-sobre-imagen">
+            <h3 class="estilodefuente1">The Surf Row</h3>
+            <div class="estilodefuente2">Surfside</div>
+          </div>
+        </div>
+      </a>
+
+      <a href="">
+        <div class="imagen-con-texto">
+          <img
+            class="grupoimg"
+            src="./IMAGENES/2grupo.jpg"
+            alt="Galeria de la propiedad Indigo, Vero Beach"
+          />
+          <div class="texto-sobre-imagen">
+            <h3 class="estilodefuente1">Indigo</h3>
+            <div class="estilodefuente2">Vero Beach</div>
+          </div>
+        </div>
+      </a>
+      <a href="">
+        <div class="imagen-con-texto">
+          <img
+            class="grupoimg"
+            src="./IMAGENES/3grupo.jpg"
+            alt="Galeria de la propiedad Rosewood - Baha Mar, Nassau, the Bahamas "
+          />
+          <div class="texto-sobre-imagen">
+            <h3 class="estilodefuente1">Rosewood - Baha Mar</h3>
+            <div class="estilodefuente2">Nassau, the Bahamas</div>
+          </div>
+        </div>
+      </a>
+      <a href="">
+        <div class="imagen-con-texto">
+          <img
+            class="grupoimg"
+            src="./IMAGENES/4grupo.jpg"
+            alt="Galeria de la propiedad St. Regis - The Astor Tower, Brickell, Miami  "
+          />
+          <div class="texto-sobre-imagen">
+            <h3 class="estilodefuente1">St. Regis - The Astor Tower</h3>
+            <div class="estilodefuente2">Brickell, Miami</div>
+          </div>
+        </div>
+      </a>
+      <a href="">
+        <div class="imagen-con-texto">
+          <img
+            class="grupoimg"
+            src="./IMAGENES/5grupo.jpg"
+            alt="Galeria de la propiedad Giralda Place, Coral Gables"
+          />
+          <div class="texto-sobre-imagen">
+            <h3 class="estilodefuente1">Giralda Place</h3>
+            <div class="estilodefuente2">Coral Gables</div>
+          </div>
+        </div>
+      </a>
+      <a href="">
+        <div class="imagen-con-texto">
+          <img
+            class="grupoimg"
+            src="./IMAGENES/6grupo.jpg"
+            alt="Galeria de la propiedad St. Regis - The William Tower, Brickell, Miami"
+          />
+          <div class="texto-sobre-imagen">
+            <h3 class="estilodefuente1">St. Regis - The William Tower</h3>
+            <div class="estilodefuente2">Brickell, Miami</div>
+          </div>
+        </div>
+      </a>
+      <a href="">
+        <div class="imagen-con-texto">
+          <img
+            class="grupoimg"
+            src="./IMAGENES/7grupo.jpg"
+            alt="Galeria de la propiedad Solterre at Cockleshell Bay, St. Kitts and nevis"
+          />
+          <div class="texto-sobre-imagen">
+            <h3 class="estilodefuente1">Solterre at Cockleshell Bay</h3>
+            <div class="estilodefuente2">St. Kitts and nevis</div>
+          </div>
+        </div>
+      </a>
+      <a href="">
+        <div class="imagen-con-texto">
+          <img
+            class="grupoimg"
+            src="./IMAGENES/8grupo.jpg"
+            alt="Galeria de la propiedad Urbin, Coconut Grove"
+          />
+          <div class="texto-sobre-imagen">
+            <h3 class="estilodefuente1">Urbin</h3>
+            <div class="estilodefuente2">Coconut Grove</div>
+          </div>
+        </div>
+      </a>
+    </section>
+    <!--.................................................-->
+    <!--PIE DE PAGINA-->
+    <footer>
+      <div class="bloquegris">
+        <div class="txtgris">
+          <p><span>Join the list</span></p>
+          <h2 class="griscolum1">Unlock<br />the exclusive world</h2>
+        </div>
+        <div class="formgris">
+          <form class="formulario">
+            <label for="email">Name:</label>
+            <input type="email" placeholder="Ex. name@email.com" />
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="bloquenegro">
+        <div class="columna1">
+          <p>Become a New Uniq Artist<br />Become a Commercial Partner</p>
+        </div>
+        <div class="columna2">
+          <p>Suites<br />Cities<br />Villas</p>
+        </div>
+        <div class="columna3">
+          <p>
+            <b>Houses</b><br />Apartments<br />
+            <br />Contact us
+          </p>
+        </div>
+        <div class="columna4">
+          <p class="uno">Call Center</p>
+          <p class="dos">+52 55 6840 4000</p>
+
+          <a href="" class="tres">concierge@uniqluxury.com</a>
+        </div>
+      </div>
+      <div class="copy">
+        <p>Copyright © 2022</p>
+      </div>
+    </footer>
+  </body>
+</html>

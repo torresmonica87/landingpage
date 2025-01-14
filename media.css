@@ -1,0 +1,273 @@
+/*---------------------------------------------------------------------------1440----------------------*/
+@media (max-width: 1920px) {
+  .botones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media (max-width: 1440px) {
+  .textomenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .textoportada {
+    padding: 40px;
+  }
+
+  .botones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .estilocarrusel {
+    height: auto;
+  }
+
+  .fuentep5 {
+    font-size: 36px;
+  }
+
+  .fuentep6 {
+    font-size: 32px;
+  }
+}
+
+/*-----------------------------------------------------------------------------1280--------------------*/
+@media (max-width: 1280px) {
+  .imgcarrusel {
+    width: 100%;
+  }
+
+  .titulos {
+    font-size: 15px;
+  }
+
+  #grupos {
+    grid-template-columns: 6fr 6fr;
+    gap: 50px;
+  }
+
+  .grupoimg {
+    width: 100%;
+  }
+
+  #fuentep1 {
+    font-size: 28px;
+  }
+
+  #fuentep2 {
+    font-size: 40px;
+  }
+
+  .textoportada {
+    position: relative;
+  }
+
+  .izquierdainferior {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 20px;
+    gap: 10px;
+  }
+
+  .izquierdainferior #fuentep1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+
+  .izquierdainferior #fuentep2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+
+  .izquierdainferior input.fuente {
+    position: relative;
+    width: 15%;
+    min-width: 200px;
+    max-width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+}
+/*-------------------------------------------------1000-------------------------------------*/
+@media (max-width: 1000px) {
+  .bloquenegro {
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+  }
+
+  .bloquenegro .columna1 {
+    display: block;
+    width: 100%;
+    padding-left: 20px;
+  }
+
+  .bloquenegro .columna2,
+  .bloquenegro .columna3 {
+    display: block;
+    width: 50%;
+    justify-items: center;
+  }
+
+  .bloquenegro .columna4 {
+    display: block;
+    justify-items: center;
+    margin: auto;
+  }
+}
+/*-----------------------------------------------------------------------768-------------------*/
+@media (max-width: 768px) {
+  .bloquegris {
+    display: none;
+  }
+  .lupaderechasuperior {
+    display: none;
+  }
+  .logogrupos {
+    display: none;
+  }
+  .lupamovil {
+    display: grid;
+    margin: auto;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+  }
+  .lupamovil img {
+    padding: 10px;
+  }
+  .menu {
+    margin-top: 10px;
+  }
+  nav .menu {
+    display: block;
+    padding: 0;
+  }
+
+  nav .texto {
+    display: none;
+  }
+
+  nav .logo {
+    display: none;
+  }
+
+  #grupos {
+    grid-template-columns: 1fr;
+  }
+
+  .texto-sobre-imagen {
+    display: none;
+  }
+
+  .copy {
+    display: none;
+  }
+
+  #redes {
+    display: none;
+  }
+
+  .textomovil {
+    display: inline;
+    width: auto;
+    margin-top: 60px;
+  }
+
+  .fuentetxtmovil {
+    font-family: "Montserrat";
+    color: #df991b;
+    font-size: 25px;
+    font-weight: 390;
+    line-height: 45px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    white-space: nowrap;
+  }
+
+  .titulos {
+    display: none;
+  }
+
+  .textocaja {
+    display: none;
+  }
+}
+
+/*-----------------------------------------------------------500px------------------------------------*/
+@media (max-width: 500px) {
+  nav {
+    background-color: #00000079;
+  }
+
+  .texto {
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  #galeriacarrusel {
+    padding-top: 10px;
+  }
+
+  footer {
+    margin-top: 50px;
+  }
+
+  #grupos {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .fuente {
+    width: 80%;
+  }
+  #fuentep4 {
+    width: 80%;
+  }
+  .fuentep7 {
+    width: 90%;
+    padding: 10px;
+    font-size: 14px;
+    margin: 10px auto;
+    display: block;
+    box-sizing: border-box;
+  }
+
+  .fuentep8 {
+    font-size: 25px;
+  }
+
+  .fuentep9 {
+    font-size: 40px;
+  }
+
+  #fuentep1 {
+    font-size: 30px;
+  }
+
+  #fuentep2 {
+    font-size: 60px;
+  }
+
+  #fuentep4 {
+    font-size: 14px;
+    padding: 10px;
+    padding-right: 40px;
+  }
+
+  .imgcarrusel {
+    height: 300px;
+  }
+}

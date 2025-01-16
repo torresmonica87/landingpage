@@ -210,15 +210,9 @@ header {
   }
 
   .fuentetxtmovil {
-    font-family: "Montserrat";
-    color: #df991b;
     font-size: 10px;/*menos px para ver lo de la pagina al verla desde mi link (problema al traducir)*/
-    font-weight: 390;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    white-space: nowrap;
   }
+  
   .fuente {
     font-size: 10px;
   }

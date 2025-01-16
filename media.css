@@ -140,7 +140,13 @@
   }
 }
   
+header {
+  padding-bottom: 10px;
+}
 
+#galeriacarrusel {
+  margin-top: 5px;
+}
   .fuentep8 {
     font-size: 25px;
   }
@@ -201,7 +207,6 @@
   .textomovil {
     display: inline;
     width: auto;
-    margin-top: 60px;
   }
 
   .fuentetxtmovil {
@@ -214,7 +219,9 @@
     text-decoration-skip-ink: none;
     white-space: nowrap;
   }
-
+  .fuente {
+    font-size: 10px;
+  }
   .titulos {
     display: none;
   }

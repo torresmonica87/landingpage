@@ -49,7 +49,7 @@
   }
 
   #grupos {
-    grid-template-columns: 6fr 6fr;
+    grid-template-columns: 1fr 1fr;
     gap: 50px;
   }
 
@@ -170,7 +170,7 @@
   }
 
   #grupos {
-    grid-template-columns: 12fr;
+    grid-template-columns: 1fr;
   }
 
   .texto-sobre-imagen {

@@ -101,7 +101,7 @@
 }
 
 @media (max-width: 1200px) {
-  .fuentep7, prev, .next {
+  .fuentep7, .prev, .next {
     font-size: 10px;
   }
 }

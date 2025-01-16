@@ -491,7 +491,7 @@ nav a {
   border: 2px solid #ffffff;
   background-color: transparent;
   width: 300px;
-  font-size: 16px;
+  font-size: 15px;
   color: #000000;
   border: 2px solid #000000;
   border-radius: 100px;
@@ -516,7 +516,7 @@ nav a {
 
 .prev,
 .next {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 390;
   color: #b4b7b7;
   margin: 0;

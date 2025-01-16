@@ -210,6 +210,10 @@
   .textocaja {
     display: none;
   }
+  #grupos {
+    width: 100%;
+    padding: 30px;
+  }
 }
 
 /*-----------------------------------------------------------500px------------------------------------*/
@@ -230,11 +234,6 @@
 
   footer {
     margin-top: 50px;
-  }
-
-  #grupos {
-    width: 100%;
-    padding: 20px;
   }
 
   .fuente {

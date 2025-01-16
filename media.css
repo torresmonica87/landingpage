@@ -170,7 +170,7 @@
   }
 
   #grupos {
-    grid-template-columns: 1fr;
+    grid-template-columns: 12fr;
   }
 
   .texto-sobre-imagen {

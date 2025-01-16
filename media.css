@@ -131,6 +131,13 @@
   .bloquegris {
     display: none;
   }
+  .fuentep8 {
+    font-size: 25px;
+  }
+
+  .fuentep9 {
+    font-size: 40px;
+  }
   .lupaderechasuperior {
     display: none;
   }
@@ -243,14 +250,6 @@
     margin: 10px auto;
     display: block;
     box-sizing: border-box;
-  }
-
-  .fuentep8 {
-    font-size: 25px;
-  }
-
-  .fuentep9 {
-    font-size: 40px;
   }
 
   #fuentep1 {
